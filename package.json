@@ -1,9 +1,9 @@
 {
-  "name": "@kb/nfu",
+  "name": "@kundanb/nfu",
   "version": "1.2.0",
   "description": "A CLI to upload files to server.",
   "bin": {
-    "@kb/nfu": "bin/nfu",
+    "@kundanb/nfu": "bin/nfu",
     "nfu": "bin/nfu"
   },
   "repository": {
