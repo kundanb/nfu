@@ -1,0 +1,24 @@
+{
+  "name": "@kb/nfu",
+  "version": "1.0.0",
+  "description": "A CLI to upload files to server.",
+  "bin": {
+    "@kb/nfu": "bin/nfu",
+    "nfu": "bin/nfu"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kundanb/node-file-uploader.git"
+  },
+  "author": "Kundan Bhasin <kundanbhasin11062000@gmail.com> (https://kundanb.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kundanb/node-file-uploader/issues"
+  },
+  "homepage": "https://github.com/kundanb/node-file-uploader#readme",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "multer": "^1.4.3"
+  }
+}

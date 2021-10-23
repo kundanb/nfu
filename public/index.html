@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="icon.png" />
+    <title>NFU - Node File Uploader</title>
+
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div id="branding">
+        <img src="icon.png" alt="Node File Uploader Logo" />
+      </div>
+
+      <form action="/upload" method="post" enctype="multipart/form-data">
+        <div id="file-adder-cont" class="main-file-card-cont">
+          <input type="file" name="files" multiple required />
+        </div>
+
+        <div id="file-cards-cont"></div>
+
+        <div class="main-file-card-cont">
+          <button class="file-card">Upload &uarr;</button>
+        </div>
+      </form>
+
+      <div id="author-info">
+        Made by
+        <a href="https://github.com/kundanb" target="_blank">@kundanb</a>
+      </div>
+
+      <script src="./script.js"></script>
+    </div>
+  </body>
+</html>
